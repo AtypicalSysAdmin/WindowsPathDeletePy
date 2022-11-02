@@ -1,0 +1,113 @@
+Created the log file!2022-09-06 22:40:41,692 - Application Log - WARNING - Application Log Started
+2022-09-06 22:54:42,649 - Application Log - WARNING - Application Log Started
+2022-09-08 21:14:56,009 - Application Log - WARNING - Application Log Started
+2022-09-08 21:15:10,942 - Application Log - WARNING - Application Log Started
+2022-09-08 21:15:30,228 - Application Log - WARNING - Application Log Started
+2022-09-08 21:17:27,508 - Application Log - WARNING - Application Log Started
+2022-09-08 21:23:21,421 - Application Log - WARNING - Application Log Started
+2022-11-01 20:41:21,923 - Application Log - WARNING - Application Log Started
+2022-11-01 20:41:39,115 - Application Log - INFO - Main info - Entered directory: C:\Games\Python\WindowsPathDeletePy\.git
+2022-11-01 20:41:40,603 - Application Log - ERROR - Main Error - Access denied, admin rights required
+2022-11-01 20:41:40,730 - Application Log - WARNING - Application Log Started
+2022-11-01 20:41:51,798 - Application Log - INFO - Main info - Entered directory: C:\Games\Python\WindowsPathDeletePy\.git
+2022-11-01 20:41:51,799 - Application Log - INFO - Validating path
+2022-11-01 20:41:51,799 - Application Log - INFO - COMMIT_EDITMSG has been removed successfully
+2022-11-01 20:41:51,800 - Application Log - INFO - config has been removed successfully
+2022-11-01 20:41:51,800 - Application Log - INFO - description has been removed successfully
+2022-11-01 20:41:51,801 - Application Log - INFO - FETCH_HEAD has been removed successfully
+2022-11-01 20:41:51,801 - Application Log - INFO - HEAD has been removed successfully
+2022-11-01 20:41:51,801 - Application Log - INFO - index has been removed successfully
+2022-11-01 20:41:51,804 - Application Log - INFO - hooks has been removed successfully
+2022-11-01 20:41:51,804 - Application Log - INFO - info has been removed successfully
+2022-11-01 20:41:51,806 - Application Log - INFO - logs has been removed successfully
+2022-11-01 20:41:51,807 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\03\\2ca3b9258ea8a82c14a16178d19b1084cf78da'
+2022-11-01 20:41:51,815 - Application Log - ERROR - Traceback (most recent call last):
+  File "C:\Games\Python\WindowsPathDeletePy\MethFolder\methFile.py", line 27, in clearDir
+    shutil.rmtree(os.path.join(root, d))
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 749, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 614, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 617, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\03\\2ca3b9258ea8a82c14a16178d19b1084cf78da'
+
+2022-11-01 20:41:51,817 - Application Log - INFO - refs has been removed successfully
+2022-11-01 20:41:51,817 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\03\\2ca3b9258ea8a82c14a16178d19b1084cf78da'
+2022-11-01 20:41:51,818 - Application Log - ERROR - Traceback (most recent call last):
+  File "C:\Games\Python\WindowsPathDeletePy\MethFolder\methFile.py", line 27, in clearDir
+    shutil.rmtree(os.path.join(root, d))
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 749, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 617, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\03\\2ca3b9258ea8a82c14a16178d19b1084cf78da'
+
+2022-11-01 20:41:51,818 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\0a\\86e4fe831a398e67af5f42c4352f42181c5a8c'
+2022-11-01 20:41:51,819 - Application Log - ERROR - Traceback (most recent call last):
+  File "C:\Games\Python\WindowsPathDeletePy\MethFolder\methFile.py", line 27, in clearDir
+    shutil.rmtree(os.path.join(root, d))
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 749, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 617, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\0a\\86e4fe831a398e67af5f42c4352f42181c5a8c'
+
+2022-11-01 20:41:51,819 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\0c\\2b111aa19fd7701954b9635f0187eb4530fc2a'
+2022-11-01 20:41:51,819 - Application Log - ERROR - Traceback (most recent call last):
+  File "C:\Games\Python\WindowsPathDeletePy\MethFolder\methFile.py", line 27, in clearDir
+    shutil.rmtree(os.path.join(root, d))
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 749, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 617, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\0c\\2b111aa19fd7701954b9635f0187eb4530fc2a'
+
+2022-11-01 20:41:51,820 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\0f\\22a02a951616412ff42d17c248742dd4c73e3b'
+2022-11-01 20:41:51,820 - Application Log - ERROR - Traceback (most recent call last):
+  File "C:\Games\Python\WindowsPathDeletePy\MethFolder\methFile.py", line 27, in clearDir
+    shutil.rmtree(os.path.join(root, d))
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 749, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 617, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\0f\\22a02a951616412ff42d17c248742dd4c73e3b'
+
+2022-11-01 20:41:51,821 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\17\\29279af39d7c82fa0ba7c18708d5fa7686415b'
+2022-11-01 20:41:51,821 - Application Log - ERROR - Traceback (most recent call last):
+  File "C:\Games\Python\WindowsPathDeletePy\MethFolder\methFile.py", line 27, in clearDir
+    shutil.rmtree(os.path.join(root, d))
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 749, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 617, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\17\\29279af39d7c82fa0ba7c18708d5fa7686415b'
+
+2022-11-01 20:41:51,821 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\1b\\677c5ec6e0fdc645c5fafd0b53531e06767bd7'
+2022-11-01 20:41:51,822 - Application Log - ERROR - Traceback (most recent call last):
+  File "C:\Games\Python\WindowsPathDeletePy\MethFolder\methFile.py", line 27, in clearDir
+    shutil.rmtree(os.path.join(root, d))
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 749, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "C:\Users\moham\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 617, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\1b\\677c5ec6e0fdc645c5fafd0b53531e06767bd7'
+
+2022-11-01 20:41:51,822 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\25\\12b696d70383905e89c1abfb5a14ac5ed9df22'
+2022-11-01 20:41:51,850 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\28\\605dfad1d175dfa067a6688952069acfc346ca'
+2022-11-01 20:41:51,859 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\29\\228b3dfcaa5fed5bbc21fc1b1b44693dd2b554'
+2022-11-01 20:41:51,866 - Application Log - ERROR - [WinError 5] Access is denied: 'C:\\Games\\Python\\WindowsPathDeletePy\\.git\\objects\\2e\\a5f1e33430d106eace806872d6f898b82abb30'
